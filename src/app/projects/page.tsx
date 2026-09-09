@@ -39,7 +39,7 @@ export default function Projects() {
             What happens when you fine-tune a language model on the complete philosophical works of a single author? Fine-tuned GPT-2 Medium (355M parameters) on Nietzsche&apos;s entire English corpus — 25 books, ~2.2M tokens — to generate philosophical text in his unmistakable voice; trained on Apple M3 Pro via MPS backend in ~4 hours and published on Hugging Face.
           </p>
           <div className={styles.projectLinks}>
-            <a href="https://huggingface.co/MrArnav69/NietzscheGPT" target="_blank" rel="noreferrer" className={styles.projectLink}>
+            <a href="https://huggingface.co/arnavinvariant/NietzscheGPT" target="_blank" rel="noreferrer" className={styles.projectLink}>
               View on Hugging Face &rarr;
             </a>
           </div>
@@ -62,7 +62,7 @@ export default function Projects() {
               <li>Trained on a synthetic autoregressive task to verify correctness end-to-end.</li>
             </ul>
             <div className={styles.projectLinks}>
-              <a href="https://github.com/MrArnav69/Transformer-from-scratch" target="_blank" rel="noreferrer" className={styles.projectLink}>
+              <a href="https://github.com/arnavinvariant/Transformer-from-scratch" target="_blank" rel="noreferrer" className={styles.projectLink}>
                 View Repository &rarr;
               </a>
             </div>
@@ -82,7 +82,7 @@ export default function Projects() {
               <li>Comparative panels illustrating preservation and distortion across projections.</li>
             </ul>
             <div className={styles.projectLinks}>
-              <a href="https://github.com/MrArnav69/10D-Visualization" target="_blank" rel="noreferrer" className={styles.projectLink}>
+              <a href="https://github.com/arnavinvariant/10D-Visualization" target="_blank" rel="noreferrer" className={styles.projectLink}>
                 View Repository &rarr;
               </a>
             </div>
@@ -102,7 +102,7 @@ export default function Projects() {
               <li>Frame-skipping for throughput, overlaid confidence bars and FPS counter.</li>
             </ul>
             <div className={styles.projectLinks}>
-              <a href="https://github.com/MrArnav69/Emotion_Detection" target="_blank" rel="noreferrer" className={styles.projectLink}>
+              <a href="https://github.com/arnavinvariant/Emotion_Detection" target="_blank" rel="noreferrer" className={styles.projectLink}>
                 View Repository &rarr;
               </a>
             </div>

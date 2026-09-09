@@ -137,7 +137,7 @@ export default function About() {
                 <div className={styles.interestBlock}>
                   <h3 className={styles.interestTitle}>Philosophy</h3>
                   <p className={styles.interestText}>
-                    Deeply drawn to Existentialism and Absurdism — confronting the questions of meaning and authenticity. I publish essays on these themes on <a href="https://substack.com/@mrarnav69" target="_blank" rel="noreferrer">Substack</a>.
+                    Deeply drawn to Existentialism and Absurdism — confronting the questions of meaning and authenticity. I publish essays on these themes on <a href="https://substack.com/@arnavinvariant" target="_blank" rel="noreferrer">Substack</a>.
                   </p>
                 </div>
 

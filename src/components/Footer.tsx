@@ -14,8 +14,8 @@ export default function Footer() {
         <div className={styles.socialLinks}>
           <a href="https://orcid.org/0009-0003-0592-2530" target="_blank" rel="noreferrer" className={styles.socialLink}>ORCID</a>
           <a href="https://scholar.google.com/citations?user=0ZMfzKcAAAAJ&hl=en" target="_blank" rel="noreferrer" className={styles.socialLink}>Scholar</a>
-          <a href="https://github.com/MrArnav69" target="_blank" rel="noreferrer" className={styles.socialLink}>GitHub</a>
-          <a href="https://x.com/MrArnav69" target="_blank" rel="noreferrer" className={styles.socialLink}>X</a>
+          <a href="https://github.com/arnavinvariant" target="_blank" rel="noreferrer" className={styles.socialLink}>GitHub</a>
+          <a href="https://x.com/arnavinvariant" target="_blank" rel="noreferrer" className={styles.socialLink}>X</a>
           <a href="https://linkedin.com/in/mrarnav69" target="_blank" rel="noreferrer" className={styles.socialLink}>LinkedIn</a>
           <a href="mailto:arnav.gupta.ai@outlook.com" className={styles.socialLink}>Email</a>
         </div>

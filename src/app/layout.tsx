@@ -30,8 +30,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "@MrArnav69",
-    creator: "@MrArnav69",
+    site: "@arnavinvariant",
+    creator: "@arnavinvariant",
     title: "Arnav Gupta | Independent Researcher",
     description: "Independent ML researcher from Nepal. Two preprints, no institution, fifteen.",
     images: ["/profile.png"],

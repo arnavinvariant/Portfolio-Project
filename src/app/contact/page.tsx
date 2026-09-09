@@ -2,7 +2,7 @@
 
 import { motion, Variants } from "framer-motion";
 import styles from "./page.module.css";
-import { Github, Linkedin, Instagram, Facebook, Mail, Phone, Newspaper, BookOpen, GraduationCap, Twitter } from "lucide-react";
+import { Github, Linkedin, Mail, Phone, Newspaper, BookOpen, GraduationCap, Twitter } from "lucide-react";
 
 export default function Contact() {
   const containerVariants: Variants = {
@@ -83,7 +83,7 @@ export default function Contact() {
           </motion.a>
 
           <motion.a 
-            href="https://github.com/MrArnav69" 
+            href="https://github.com/arnavinvariant" 
             target="_blank" 
             rel="noreferrer"
             className={styles.contactCard}
@@ -91,11 +91,11 @@ export default function Contact() {
           >
             <Github size={18} strokeWidth={1.5} className={styles.icon} />
             <h2 className={styles.cardTitle}>GitHub</h2>
-            <span className={styles.cardValue}>@MrArnav69</span>
+            <span className={styles.cardValue}>@arnavinvariant</span>
           </motion.a>
 
           <motion.a 
-            href="https://x.com/MrArnav69" 
+            href="https://x.com/arnavinvariant" 
             target="_blank" 
             rel="noreferrer"
             className={styles.contactCard}
@@ -103,7 +103,7 @@ export default function Contact() {
           >
             <Twitter size={18} strokeWidth={1.5} className={styles.icon} />
             <h2 className={styles.cardTitle}>X / Twitter</h2>
-            <span className={styles.cardValue}>@MrArnav69</span>
+            <span className={styles.cardValue}>@arnavinvariant</span>
           </motion.a>
 
         </motion.div>
@@ -133,7 +133,7 @@ export default function Contact() {
           </motion.a>
 
           <motion.a 
-            href="https://substack.com/@mrarnav69" 
+            href="https://substack.com/@arnavinvariant" 
             target="_blank" 
             rel="noreferrer"
             className={styles.contactCard}
@@ -141,31 +141,7 @@ export default function Contact() {
           >
             <Newspaper size={18} strokeWidth={1.5} className={styles.icon} />
             <h2 className={styles.cardTitle}>Substack</h2>
-            <span className={styles.cardValue}>@mrarnav69</span>
-          </motion.a>
-
-          <motion.a 
-            href="https://www.instagram.com/mrarnav69/" 
-            target="_blank" 
-            rel="noreferrer"
-            className={styles.contactCard}
-            variants={fadeUpVariant}
-          >
-            <Instagram size={18} strokeWidth={1.5} className={styles.icon} />
-            <h2 className={styles.cardTitle}>Instagram</h2>
-            <span className={styles.cardValue}>@mrarnav69</span>
-          </motion.a>
-
-          <motion.a 
-            href="https://www.facebook.com/arnav.gupta.612918" 
-            target="_blank" 
-            rel="noreferrer"
-            className={styles.contactCard}
-            variants={fadeUpVariant}
-          >
-            <Facebook size={18} strokeWidth={1.5} className={styles.icon} />
-            <h2 className={styles.cardTitle}>Facebook</h2>
-            <span className={styles.cardValue}>Arnav Gupta</span>
+            <span className={styles.cardValue}>@arnavinvariant</span>
           </motion.a>
 
         </motion.div>
