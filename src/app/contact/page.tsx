@@ -71,7 +71,7 @@ export default function Contact() {
           </motion.a>
 
           <motion.a 
-            href="https://www.linkedin.com/in/mrarnav69/" 
+            href="https://www.linkedin.com/in/arnavinvariant/" 
             target="_blank" 
             rel="noreferrer"
             className={styles.contactCard}
@@ -79,7 +79,7 @@ export default function Contact() {
           >
             <Linkedin size={18} strokeWidth={1.5} className={styles.icon} />
             <h2 className={styles.cardTitle}>LinkedIn</h2>
-            <span className={styles.cardValue}>in/mrarnav69</span>
+            <span className={styles.cardValue}>in/arnavinvariant</span>
           </motion.a>
 
           <motion.a 
