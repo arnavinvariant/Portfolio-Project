@@ -33,7 +33,7 @@ export default function About() {
           {/* ── Left Sidebar: Quick Facts ── */}
           <motion.aside className={styles.sidebar} variants={fadeUpVariant}>
             <div className={styles.factGroup}>
-              <h3 className={styles.factLabel}>Status</h3>
+              <h3 className={styles.factLabel}>Affiliation</h3>
               <p className={styles.factValue}>Independent Researcher</p>
             </div>
             
@@ -41,16 +41,11 @@ export default function About() {
               <h3 className={styles.factLabel}>Location</h3>
               <p className={styles.factValue}>Nepal</p>
             </div>
-            
-            <div className={styles.factGroup}>
-              <h3 className={styles.factLabel}>Current Level</h3>
-              <p className={styles.factValue}>Grade 10 · 15 years old</p>
-            </div>
 
             <div className={styles.factGroup}>
-              <h3 className={styles.factLabel}>Research Focus</h3>
+              <h3 className={styles.factLabel}>Research Direction</h3>
               <p className={styles.factValue}>
-                Geometric and spectral properties of learned representations; NLI auditing in iterative refinement.
+                Pure mathematics — optimization, matrix analysis, calculus
               </p>
             </div>
 
@@ -68,46 +63,31 @@ export default function About() {
             <motion.div className={styles.contentBlock} variants={fadeUpVariant}>
               <div className={styles.prose}>
                 <p className="dropcap">
-                  My work is animated by a structural question: when does the spectral and geometric character of a learned representation determine what a learning system can and cannot do — and what does that imply about when pipelines will fail?
+                  My work is moving toward pure mathematics — optimization, matrix analysis, and calculus. Three published preprints in ML theory and NLP constitute the empirical and theoretical foundation from which this direction emerged.
                 </p>
                 <p>
-                  My research pursues this from complementary angles. One preprint (arXiv, 2026) introduces the spectral saturation index <em>S(K) = erank(Σ̂⁽ᴷ⁾_W)/K</em>, a label-free stopping rule for few-shot label acquisition validated across 49 tasks and three backbones. The other (Research Square, 2026) provides the first controlled empirical documentation of verifier exploitation in NLI-guided iterative refinement.
+                  The ML work spans spectral geometry of learned representations (a label-free saturation index for few-shot stopping rules, validated across 49 tasks and three frozen backbones), verifier exploitation in NLI-guided iterative refinement, and singular-subspace alignment bounds for norm-constrained low-rank updates. Each investigation was grounded in the mathematical structures that determine when and why learning systems succeed or fail.
                 </p>
               </div>
 
               <blockquote className={styles.pullQuote}>
-                Operating without institutional affiliation, advisor, or supervised compute — from Nepal, at fifteen.
+                All investigations conducted independently. All code, methodology, and writing is my own.
               </blockquote>
+            </motion.div>
 
+            {/* ── Philosophy ── */}
+            <motion.div className={styles.contentBlock} variants={fadeUpVariant}>
+              <h2 className={styles.blockTitle}>Philosophy</h2>
               <div className={styles.prose}>
                 <p>
-                  Both investigations were conducted independently, alongside a full formal school curriculum, without access to institutional compute, an academic supervisor, or a research group. All code, methodology, and writing is my own. I build the systems I study from first principles, emphasizing rigorous empirical evaluation and theoretical grounding.
+                  Existentialist philosophy is a second, sustained thread in my work. A published preprint on Zenodo critically re-examines the argumentative structure of Camus&apos;s <em>Myth of Sisyphus</em>, arguing that its famous conclusion enacts the very &ldquo;philosophical suicide&rdquo; Camus critiques in Kierkegaard and Husserl. I write on these themes — meaning, authenticity, absurdity — on <a href="https://substack.com/@arnavinvariant" target="_blank" rel="noreferrer">Substack</a>.
                 </p>
               </div>
             </motion.div>
 
-            {/* ── Technical Skills ── */}
-            <motion.div className={styles.contentBlock} variants={fadeUpVariant}>
-              <h2 className={styles.blockTitle}>Technical Stack</h2>
-              <dl className={styles.skillGrid}>
-                <div className={styles.skillRow}>
-                  <dt className={styles.skillCategory}>Languages</dt>
-                  <dd className={styles.skillItems}>Python, C++, SQL</dd>
-                </div>
-                <div className={styles.skillRow}>
-                  <dt className={styles.skillCategory}>Libraries</dt>
-                  <dd className={styles.skillItems}>PyTorch, TensorFlow, Hugging Face Transformers, Scikit-learn, NumPy, Pandas, Matplotlib, XGBoost</dd>
-                </div>
-                <div className={styles.skillRow}>
-                  <dt className={styles.skillCategory}>Tools</dt>
-                  <dd className={styles.skillItems}>Git, Docker, CUDA, REST APIs, LaTeX, Obsidian, Zotero</dd>
-                </div>
-              </dl>
-            </motion.div>
-
             {/* ── Mathematics Coursework ── */}
             <motion.div className={styles.contentBlock} variants={fadeUpVariant}>
-              <h2 className={styles.blockTitle}>Mathematics</h2>
+              <h2 className={styles.blockTitle}>Mathematics Coursework</h2>
               <span className={styles.blockSubtitle}>MIT OpenCourseWare — Self-Directed</span>
               <div className={styles.courseGrid}>
                 <div className={styles.courseCard}>
@@ -122,7 +102,15 @@ export default function About() {
                   <span className={styles.courseNumber}>18.06</span>
                   <div className={styles.courseInfo}>
                     <span className={styles.courseName}>Linear Algebra</span>
-                    <span className={styles.courseDetail}>Matrix theory, eigendecomposition, orthogonality, and ML applications.</span>
+                    <span className={styles.courseDetail}>Matrix theory, eigendecomposition, SVD, orthogonality, and ML applications.</span>
+                  </div>
+                  <span className={styles.courseStatus}>Completed</span>
+                </div>
+                <div className={styles.courseCard}>
+                  <span className={styles.courseNumber}>18.02</span>
+                  <div className={styles.courseInfo}>
+                    <span className={styles.courseName}>Multivariable Calculus</span>
+                    <span className={styles.courseDetail}>Vector calculus, partial derivatives, multiple integrals, line &amp; surface integrals, and gradient fields.</span>
                   </div>
                   <span className={`${styles.courseStatus} ${styles.inProgress}`}>In Progress</span>
                 </div>
@@ -131,25 +119,11 @@ export default function About() {
 
             {/* ── Other Interests ── */}
             <motion.div className={styles.contentBlock} variants={fadeUpVariant}>
-              <h2 className={styles.blockTitle}>Other Pursuits</h2>
+              <h2 className={styles.blockTitle}>Other Interests</h2>
 
               <div className={styles.interestGrid}>
                 <div className={styles.interestBlock}>
-                  <h3 className={styles.interestTitle}>Philosophy</h3>
-                  <p className={styles.interestText}>
-                    Deeply drawn to Existentialism and Absurdism — confronting the questions of meaning and authenticity. I publish essays on these themes on <a href="https://substack.com/@arnavinvariant" target="_blank" rel="noreferrer">Substack</a>.
-                  </p>
-                </div>
-
-                <div className={styles.interestBlock}>
-                  <h3 className={styles.interestTitle}>Mathematics &amp; Physics</h3>
-                  <p className={styles.interestText}>
-                    Captivated by the formal structures underlying the physical world, which continuously informs my approach to machine learning at a foundational level.
-                  </p>
-                </div>
-
-                <div className={styles.interestBlock}>
-                  <h3 className={styles.interestTitle}>Speedcubing &amp; Trivia</h3>
+                  <h3 className={styles.interestTitle}>Speedcubing & Trivia</h3>
                   <p className={styles.interestText}>
                     3×3 Rubik&apos;s Cube average: 22.39s (PR 13.69s). Geography enthusiast (guessed 143/197 flags in 18 minutes).
                   </p>

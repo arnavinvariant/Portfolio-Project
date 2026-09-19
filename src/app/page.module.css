@@ -169,7 +169,7 @@
 
 .stripGrid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .stripItem {
@@ -283,11 +283,8 @@
   .stripGrid {
     grid-template-columns: repeat(2, 1fr);
   }
-  .stripItem:nth-child(2) {
+  .stripItem:nth-child(2n) {
     border-right: none;
-  }
-  .stripItem:nth-child(3) {
-    border-top: none;
   }
 }
 

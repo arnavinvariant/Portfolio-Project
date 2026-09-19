@@ -37,16 +37,16 @@ export default function Experience() {
               <span className={styles.date}>2025 — Present</span>
             </div>
             <div className={styles.itemSubHeader}>
-              <span className={`${styles.role} ${styles.rolePill}`}>Machine Learning &amp; NLP</span>
+              <span className={`${styles.role} ${styles.rolePill}`}>Mathematics · ML Theory · Philosophy</span>
             </div>
             <p className={styles.focusStatement}>
-              Investigating when the spectral and geometric character of learned representations determines what a system can and cannot do — and what that implies about when pipelines will fail.
+              Published research spanning optimization and matrix perturbation theory, spectral geometry of learned representations, verifier exploitation in NLI pipelines, and existentialist philosophy.
             </p>
             <ul className={styles.bulletList}>
-              <li>Designed AnchorSum, a modular training-free summarization pipeline combining entity-guided anchor extraction and dual-mode NLI faithfulness auditing.</li>
-              <li>Empirically documented verifier exploitation in prompt-only iterative refinement and proposed a multi-metric triangulation protocol for its detection.</li>
-              <li>Outperformed fine-tuned encoder-decoder baselines (BART, PEGASUS, PRIMERA) across all LLM-as-judge dimensions using a zero-shot inference-time pipeline.</li>
-              <li>Introduced the spectral saturation index S(K) — a closed-form, label-free stopping rule for few-shot label acquisition, validated across 49 real tasks (binary, 5-way, 10-way) and three frozen backbones.</li>
+              <li>Proved a Wedin-type singular-subspace alignment bound for norm-constrained asymmetric low-rank updates, connecting LoRA-style adaptation to matrix perturbation theory.</li>
+              <li>Introduced the spectral saturation index S(K) — a closed-form, label-free stopping rule for few-shot label acquisition, validated across 49 real tasks and three frozen backbones.</li>
+              <li>First controlled empirical documentation of verifier exploitation in zero-gradient, prompt-only iterative refinement; designed a 3-condition annotation-free detection protocol.</li>
+              <li>Published a critical reexamination of the argumentative structure of Camus’s Myth of Sisyphus, arguing the conclusion enacts the philosophical suicide Camus critiques.</li>
             </ul>
           </motion.div>
 
@@ -66,22 +66,7 @@ export default function Experience() {
             </ul>
           </motion.div>
 
-          {/* ── Harvard AI Fellowship ── */}
-          <motion.div className={styles.experienceItem} variants={fadeUpVariant}>
-            <div className={styles.itemHeader}>
-              <h2 className={styles.company}>Harvard Computer Society AI Bootcamp</h2>
-              <span className={styles.date}>2025</span>
-            </div>
-            <div className={styles.itemSubHeader}>
-              <span className={styles.role}>Artificial Intelligence Fellow</span>
-            </div>
-            <ul className={styles.bulletList}>
-              <li>Completed an intensive AI fellowship collaborating with Harvard students, focused on frontier AI systems, modern architectures, and real-world deployment challenges.</li>
-              <li>Implemented a Transformer from scratch: sinusoidal positional encoding, multi-head self-attention, cross-attention, and position-wise feed-forward networks.</li>
-              <li>Explored Reinforcement Learning foundations: MDPs, Value Iteration, Policy Iteration, SARSA, Q-Learning, and Multi-Armed Bandits.</li>
-              <li>Completed hands-on projects: fine-tuned BERT, built a mini-LLM, implemented Vision Transformers, and constructed neural networks from first principles.</li>
-            </ul>
-          </motion.div>
+
 
         </motion.div>
       </motion.section>

@@ -2,7 +2,7 @@
 
 import { motion, Variants } from "framer-motion";
 import styles from "./page.module.css";
-import { Github, Linkedin, Mail, Phone, Newspaper, BookOpen, GraduationCap, Twitter } from "lucide-react";
+import { Github, Linkedin, Mail, Phone, Newspaper, BookOpen, GraduationCap } from "lucide-react";
 
 export default function Contact() {
   const containerVariants: Variants = {
@@ -94,17 +94,7 @@ export default function Contact() {
             <span className={styles.cardValue}>@arnavinvariant</span>
           </motion.a>
 
-          <motion.a 
-            href="https://x.com/arnavinvariant" 
-            target="_blank" 
-            rel="noreferrer"
-            className={styles.contactCard}
-            variants={fadeUpVariant}
-          >
-            <Twitter size={18} strokeWidth={1.5} className={styles.icon} />
-            <h2 className={styles.cardTitle}>X / Twitter</h2>
-            <span className={styles.cardValue}>@arnavinvariant</span>
-          </motion.a>
+
 
         </motion.div>
 

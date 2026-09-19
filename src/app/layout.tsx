@@ -20,20 +20,18 @@ export const metadata: Metadata = {
     default: "Arnav Gupta | Independent Researcher",
     template: "%s — Arnav Gupta",
   },
-  description: "Independent ML researcher from Nepal. Work on spectral saturation for few-shot label acquisition, representation geometry, and faithfulness in iterative refinement pipelines.",
+  description: "Independent researcher emerging in pure mathematics, with published research in machine learning theory and existentialist philosophy.",
   openGraph: {
     type: "website",
     siteName: "Arnav Gupta",
     title: "Arnav Gupta | Independent Researcher",
-    description: "Independent ML researcher from Nepal. Two preprints, no institution, fifteen.",
+    description: "Independent researcher emerging in pure mathematics, with published research in machine learning theory and existentialist philosophy.",
     images: [{ url: "/profile.png", width: 1200, height: 630, alt: "Arnav Gupta — Independent Researcher" }],
   },
   twitter: {
     card: "summary_large_image",
-    site: "@arnavinvariant",
-    creator: "@arnavinvariant",
     title: "Arnav Gupta | Independent Researcher",
-    description: "Independent ML researcher from Nepal. Two preprints, no institution, fifteen.",
+    description: "Independent researcher emerging in pure mathematics, with published research in machine learning theory and existentialist philosophy.",
     images: ["/profile.png"],
   },
   icons: {

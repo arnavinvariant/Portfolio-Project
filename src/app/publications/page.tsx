@@ -29,6 +29,56 @@ export default function Publications() {
         <motion.h1 className={styles.pageTitle} variants={fadeUpVariant}>Publications & Preprints</motion.h1>
 
         <motion.div className={styles.projectsGrid} variants={containerVariants}>
+
+          {/* ── Paper 3: Singular-Subspace Alignment ── */}
+          <motion.div className={styles.projectCard} variants={fadeUpVariant}>
+            <div className={styles.projectHeader}>
+              <span className={styles.projectType}>PREPRINT</span>
+              <span className={styles.projectYear}>2026</span>
+            </div>
+            <h2 className={styles.projectTitle}>Singular-Subspace Alignment in Norm-Constrained Asymmetric Low-Rank Updates</h2>
+            <p className={styles.projectAuthor}>Arnav Gupta · Independent Researcher · Zenodo, 2026</p>
+            <p className={styles.projectDescription}>A geometric analysis of how norm-constrained low-rank updates align with the singular subspaces of the pretrained gradient.</p>
+            <div className={styles.abstractBlock}>
+              <h3 className={styles.abstractTitle}>Abstract</h3>
+              <p>We study the singular-subspace geometry of an asymmetric low-rank update X=BA under a Frobenius-norm constraint. For the affine linearization of a smooth matrix loss, factorized first-order stationarity pairs singular subspaces of the gradient, while the factorized second-order condition selects the leading r subspaces exactly. For a nonlinear loss, let G and G̃ denote the gradients at the pretrained and adapted points. Under full-rank factors, an active constraint, a positive multiplier, and suitable spectral separation, we prove a Wedin-type bound: the alignment error is at most βc/δr(G,G̃), where β is the gradient-Lipschitz constant and c is the update budget. If βc &lt; γG/4, this is bounded by 4βc/(3γG) relative to the pretrained gradient. Globally smooth constructions, including a convex one, attain the same asymptotic order. For r=1, exact alignment can fail outside this perturbative regime at a genuine factorized second-order stationary point. The results concern stationary-point geometry, not algorithmic convergence.</p>
+            </div>
+            <ul className={styles.projectBullets}>
+              <li>Proved a Wedin-type alignment bound for asymmetric low-rank updates under a Frobenius-norm constraint, connecting LoRA-style adaptation to singular-subspace geometry.</li>
+              <li>Showed that factorized second-order stationarity selects the leading r singular subspaces of the gradient exactly under the affine linearization.</li>
+              <li>Established that for r=1, exact alignment can fail outside the perturbative regime at a genuine factorized second-order stationary point.</li>
+            </ul>
+            <div className={styles.projectLinks}>
+              <a href="https://doi.org/10.5281/zenodo.22845046" target="_blank" rel="noreferrer" className={styles.projectLink}>
+                View Zenodo Preprint &rarr;
+              </a>
+            </div>
+          </motion.div>
+
+          {/* ── Paper 4: Assertion and Argument (Camus) ── */}
+          <motion.div className={styles.projectCard} variants={fadeUpVariant}>
+            <div className={styles.projectHeader}>
+              <span className={styles.projectType}>PREPRINT · PHILOSOPHY</span>
+              <span className={styles.projectYear}>2026</span>
+            </div>
+            <h2 className={styles.projectTitle}>Assertion and Argument: Reexamining Happiness in Camus&apos;s The Myth of Sisyphus</h2>
+            <p className={styles.projectAuthor}>Arnav Gupta · Independent Researcher · Zenodo, 2026</p>
+            <p className={styles.projectDescription}>A critical analysis of whether Camus substantiates or merely posits the conclusion that one must imagine Sisyphus happy.</p>
+            <div className={styles.abstractBlock}>
+              <h3 className={styles.abstractTitle}>Abstract</h3>
+              <p>Albert Camus&apos;s The Myth of Sisyphus culminates in its most frequently cited assertion: &ldquo;One must imagine Sisyphus happy.&rdquo; This paper critically evaluates whether the essay substantiates this conclusion or merely posits it. Camus introduces the concept of philosophical suicide — a leap wherein a thinker, having reached the boundaries of reason, transcends these limits to arrive at an unconditioned conclusion, thereby compromising the clarity demanded by the absurd. He identifies this phenomenon in the works of Kierkegaard, Chestov, and Husserl. This paper contends that a similar structure is evident in Camus&apos;s own conclusion, as it transitions from Sisyphus&apos;s acceptance of his fate to his proclaimed happiness. Following an analysis of Camus&apos;s definition of philosophical suicide and a thorough examination of the argument developed in the essay&apos;s central sections, the paper scrutinizes specific instances in the final chapter where the essay&apos;s assertive confidence exceeds what has been demonstrated. Subsequently, it considers the most robust defenses of the conclusion and argues that neither adequately bridges the identified gap. While the essay&apos;s diagnosis of the absurd remains compelling, its concluding line performs the very evasion Camus critiques elsewhere.</p>
+            </div>
+            <ul className={styles.projectBullets}>
+              <li>Argues that Camus&apos;s own conclusion in The Myth of Sisyphus enacts the very &ldquo;philosophical suicide&rdquo; he critiques in Kierkegaard, Chestov, and Husserl.</li>
+              <li>Identifies the specific inferential gap between Sisyphus&apos;s acceptance of fate and his proclaimed happiness, unaddressed by the essay&apos;s two strongest defenses.</li>
+              <li>Affirms the diagnosis of the absurd while contending that the essay&apos;s concluding line exceeds what its own argument can demonstrate.</li>
+            </ul>
+            <div className={styles.projectLinks}>
+              <a href="https://doi.org/10.5281/zenodo.22843907" target="_blank" rel="noreferrer" className={styles.projectLink}>
+                View Zenodo Preprint &rarr;
+              </a>
+            </div>
+          </motion.div>
           
           <motion.div className={styles.projectCard} variants={fadeUpVariant}>
             <div className={styles.projectHeader}>

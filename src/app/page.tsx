@@ -28,11 +28,9 @@ export default function Home() {
   };
 
   const stripLinks = [
-    { tag: "Biography", title: "Research, philosophy & intellectual formation", href: "/about" },
-    { tag: "Publications", title: "Spectral saturation index & verifier exploitation preprints", href: "/publications" },
-    { tag: "Projects", title: "NietzscheGPT, Transformers & geometric visualization", href: "/projects" },
-    { tag: "Experience", title: "Harvard AI Fellowship, ML Internship & independent research", href: "/experience" },
-    { tag: "Credentials", title: "Harvard AI Fellowship, internships & certifications", href: "/credentials" },
+    { tag: "Biography", title: "Pure mathematics, ML pedigree & philosophical inquiry", href: "/about" },
+    { tag: "Publications", title: "Four preprints across mathematics, ML theory & philosophy", href: "/publications" },
+    { tag: "Experience", title: "ML/NLP research background & internship", href: "/experience" },
     { tag: "Contact", title: "Academic & professional enquiries, ORCID & social links", href: "/contact" },
   ];
 
@@ -50,20 +48,20 @@ export default function Home() {
           {/* Column 1: Dossier Facts */}
           <motion.div className={styles.dossierCol} variants={fadeUpVariant}>
             <div className={styles.dossierItem}>
-              <span className={styles.dossierValue}>TWO</span>
+              <span className={styles.dossierValue}>FOUR</span>
               <span className={styles.dossierLabel}>PREPRINTS</span>
             </div>
             <div className={styles.dossierItem}>
               <span className={styles.dossierValue}>NEPAL</span>
-              <span className={styles.dossierLabel}>GRADE 10</span>
+              <span className={styles.dossierLabel}>INDEPENDENT</span>
             </div>
             <div className={styles.dossierItem}>
-              <span className={styles.dossierValue}>NO</span>
-              <span className={styles.dossierLabel}>INSTITUTION</span>
+              <span className={styles.dossierValue}>MATHEMATICS</span>
+              <span className={styles.dossierLabel}>& PHILOSOPHY</span>
             </div>
             <div className={styles.dossierItem}>
-              <span className={styles.dossierValue}>FIFTEEN</span>
-              <span className={styles.dossierLabel}>YEARS OLD</span>
+              <span className={styles.dossierValue}>ML/NLP</span>
+              <span className={styles.dossierLabel}>PUBLISHED WORK</span>
             </div>
           </motion.div>
 
@@ -73,7 +71,7 @@ export default function Home() {
               Arnav<br />Gupta.
             </h1>
             <p className={styles.heroStatement}>
-              Mapping the limits of artificial reasoning. My research audits the geometric structures of learned representations and the failure modes of iterative refinement.
+              Emerging in pure mathematics, with published research in machine learning theory and existentialist philosophy. My current work concerns optimization, matrix analysis, and the structures underlying learning and meaning.
             </p>
             <div className={styles.heroActions}>
               <Link href="/about" className={styles.primaryAction}>
