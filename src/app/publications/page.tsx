@@ -62,7 +62,7 @@ export default function Publications() {
               <span className={styles.projectYear}>2026</span>
             </div>
             <h2 className={styles.projectTitle}>Assertion and Argument: Reexamining Happiness in Camus&apos;s The Myth of Sisyphus</h2>
-            <p className={styles.projectAuthor}>Arnav Gupta · Independent Researcher · Zenodo, 2026</p>
+            <p className={styles.projectAuthor}>Arnav Gupta · Independent Researcher · PhilPapers, 2026</p>
             <p className={styles.projectDescription}>A critical analysis of whether Camus substantiates or merely posits the conclusion that one must imagine Sisyphus happy.</p>
             <div className={styles.abstractBlock}>
               <h3 className={styles.abstractTitle}>Abstract</h3>
@@ -74,8 +74,8 @@ export default function Publications() {
               <li>Affirms the diagnosis of the absurd while contending that the essay&apos;s concluding line exceeds what its own argument can demonstrate.</li>
             </ul>
             <div className={styles.projectLinks}>
-              <a href="https://doi.org/10.5281/zenodo.22843907" target="_blank" rel="noreferrer" className={styles.projectLink}>
-                View Zenodo Preprint &rarr;
+              <a href="https://philpapers.org/rec/GUPAAA-3" target="_blank" rel="noreferrer" className={styles.projectLink}>
+                View on PhilPapers &rarr;
               </a>
             </div>
           </motion.div>

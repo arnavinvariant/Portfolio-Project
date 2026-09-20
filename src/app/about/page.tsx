@@ -80,7 +80,7 @@ export default function About() {
               <h2 className={styles.blockTitle}>Philosophy</h2>
               <div className={styles.prose}>
                 <p>
-                  Existentialist philosophy is a second, sustained thread in my work. A published preprint on Zenodo critically re-examines the argumentative structure of Camus&apos;s <em>Myth of Sisyphus</em>, arguing that its famous conclusion enacts the very &ldquo;philosophical suicide&rdquo; Camus critiques in Kierkegaard and Husserl. I write on these themes — meaning, authenticity, absurdity — on <a href="https://substack.com/@arnavinvariant" target="_blank" rel="noreferrer">Substack</a>.
+                  Existentialist philosophy is a second, sustained thread in my work. A paper on <a href="https://philpapers.org/rec/GUPAAA-3" target="_blank" rel="noreferrer">PhilPapers</a> critically re-examines the argumentative structure of Camus&apos;s <em>Myth of Sisyphus</em>, arguing that its famous conclusion enacts the very &ldquo;philosophical suicide&rdquo; Camus critiques in Kierkegaard and Husserl. I write on these themes — meaning, authenticity, absurdity — on <a href="https://substack.com/@arnavinvariant" target="_blank" rel="noreferrer">Substack</a>.
                 </p>
               </div>
             </motion.div>
